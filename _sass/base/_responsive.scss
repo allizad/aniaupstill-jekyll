@@ -1,0 +1,79 @@
+.container-inner {
+  max-width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and(min-width: $size-md) {
+  .container-inner {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and(min-width: $size-lg) {
+  .container-inner {
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and(min-width: $size-xl) {
+  .container-inner {
+    max-width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.flex {
+  display: flex;
+  &.flex-align-middle {
+    align-items: center;
+    justify-content: center;
+  }
+  &.flex-center {
+    justify-content: center;
+  }
+  &.flex-column {
+    flex-direction: column;
+  }
+}
+
+.flex-inline {
+  display: inline-flex;
+}
+.flex-center {
+  justify-content: center;
+}
+
+// extend centering to flex elements
+.text-center .flex {
+  justify-content: center;
+}
+
+.mobile-text-center .flex {
+  justify-content: center;
+}
+
+@media screen and(min-width: $size-md) {
+  .mobile-text-center .flex {
+    justify-content: inherit;
+  }
+}
+
+@media screen and(max-width: $size-sm) {
+  .mobile-text-center, .mobile-text-center > * {
+    text-align: center;
+  }
+  .mobile-text-left, .mobile-text-left > * {
+    text-align: left;
+  }
+  .mobile-text-right, .mobile-text-right > * {
+    text-align: right;
+  }
+}
+
+.hide { display: none }
