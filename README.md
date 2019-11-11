@@ -82,3 +82,7 @@ Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, an
 This is an ongoing project and I welcome contributions. Feel free to submit a PR.
 
 If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
+
+
+## Netlify Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4baca6e1-226c-4da0-891a-ff1637c2827d/deploy-status)](https://app.netlify.com/sites/zealous-wescoff-6078bc/deploys)

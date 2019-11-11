@@ -4,3 +4,14 @@
 @import 'vendor/spectre/spectre';
 
 @import 'base/manifest';
+
+@import 'every-layout';
+
+.bg-black {
+  background: black;
+  color: $light-color;
+}
+
+.fg-3 {
+  flex-grow: 3;
+}
