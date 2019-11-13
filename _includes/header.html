@@ -1,9 +1,10 @@
 <header>
-  <switcher-l>
-    <grid-l>
-      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      <div class="spacer fg-3">&nbsp;</div>
-      {% include navigation.html navigation=site.data.navigation %}
-    </grid-l>
-  </switcher-l>
+  <cluster-l justify="space-between">
+    <div>
+      <a href="{{ "/" | relative_url }}"><img src="https://www.fillmurray.com/100/50" alt=""></a>
+      <cluster-l justify="flex-start">
+        {% include navigation.html navigation=site.data.navigation %}
+      </cluster-l>
+    </div>
+  </cluster-l>
 </header>

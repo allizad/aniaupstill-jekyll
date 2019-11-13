@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: cover
 title: Welcome
 permalink: /
 section: home
@@ -12,8 +12,13 @@ intro_paragraph: >
   pages and posts, and a continuous deployment workflow.
 ---
 
-<div class="video-background">
+
+# Ania is an actor, director, and teaching artist based in NYC
+
+<!-- <div class="video-background">
   <div class="video-foreground">
     <iframe src="https://www.youtube.com/embed/xEql8ym2tLc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
   </div>
-</div>
+</div> -->
+
+<a href="" class="btn">VIEW CURRENT WORK</a>

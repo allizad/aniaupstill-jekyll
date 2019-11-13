@@ -1,3 +1,5 @@
+// import "./Grid.css";
+
 /**
  * @module grid-l
  * @description
@@ -12,9 +14,8 @@ export default class Grid extends HTMLElement {
       this.i = `Grid-${[this.min, this.space].join('')}`;
       this.dataset.i = this.i;
       if (!document.getElementById(this.i)) {
-        let styleEl = document.createElement('style');
-        styleEl.id = this.i;
-        styleEl.innerHTML = `
+        document.head.innerHTML += `
+        <style id="${this.i}">
           [data-i="${this.i}"] {
             grid-gap: ${this.space};
           }
@@ -29,8 +30,8 @@ export default class Grid extends HTMLElement {
               grid-template-columns: repeat(auto-fill, minmax(min(${this.min}, 100%), 1fr));
             }
           }
+        </style>
         `.replace(/\s\s+/g, ' ').trim();
-        document.head.appendChild(styleEl);
       }
     }
   }

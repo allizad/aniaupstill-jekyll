@@ -1,0 +1,125 @@
+@import "./normalize.css";
+@import "./variables.scss";
+
+$primary-color: #F2622E;
+$bg-color-light: #00060D;
+$dark-color: #00060D;
+$light-color: #F2F2F2;
+
+// Global styles
+
+:root {
+  --measure: 60ch;
+  line-height: var(--ratio);
+  font-size: calc(0.333vw + 1em);
+  font-family: var(--font-plain);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+* {
+  box-sizing: border-box;
+  background-color: inherit;
+  font-family: inherit;
+  color: inherit;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: var(--color-dark);
+  border-width: 0;
+}
+
+[hidden] { display: none; }
+[hidden] + * { margin-top: 0 !important; }
+
+nav, main, header, footer {
+  display: block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+[tabindex='-1']:focus { outline: none }
+
+.display\:inline-block { display: inline-block }
+
+
+.post {
+  .post-excerpt {
+    font-style: italic;
+    em { font-style: normal; }
+  }
+  .post-date {
+    font-size: var(--s-1);
+  }
+  .post-title {
+    color: var(--color-darkish);
+  }
+}
+
+blockquote {
+  font-size: var(--s0);
+  line-height: var(--s1);
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+cluster-l ul {
+  list-style: none;
+}
+
+#home-cover {
+  background-color: $dark-color;
+  color: $light-color;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a {
+  color: $primary-color;
+}
+
+.color-primary {
+  color: $primary-color;
+}
+
+.text-uppercase {
+  font-variant: small-caps;
+  letter-spacing: 0.08rem;
+  font-size: 1.2rem;
+}
+
+.btn {
+  appearance: none;
+  background: $bg-color-light;
+  border: var(--border-thin) solid $primary-color;
+  border-radius: var(--s-6);
+  color: $primary-color;
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--s0);
+  height: var(--var4);
+  line-height: var(--ratio);
+  outline: none;
+  padding: var(--s-3) var(--s0);
+  text-align: center;
+  text-decoration: none;
+  transition: background .2s, border .2s, box-shadow .2s, color .2s;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: var(--s-6);
+  &:focus,
+  &:hover {
+    background: rgba($primary-color, 0.5);
+    color: $dark-color;
+    text-decoration: none;
+  }
+}

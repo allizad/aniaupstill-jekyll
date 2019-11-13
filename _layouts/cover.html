@@ -8,10 +8,14 @@ layout: compress
   {% include head.html %}
 
   <body>
-    <div class="cover bg-black text-white">
-      {% include header.html %}
-      {{ content }}
-    </div>
+    <main>
+      <cover-l centered="stack-l" id="home-cover" height="100vh" centered="center-l">
+        {% include header.html %}
+        <stack-l>
+          {{ content }}
+        </stack-l>
+      </cover-l>
+    </main>
   </body>
 
 </html>
