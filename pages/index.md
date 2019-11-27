@@ -21,4 +21,4 @@ intro_paragraph: >
   </div>
 </div> -->
 
-<a href="" class="btn">VIEW CURRENT WORK</a>
+<a href="/work" class="btn">VIEW CURRENT WORK</a>

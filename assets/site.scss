@@ -108,7 +108,7 @@ a {
   color: $primary-color;
   cursor: pointer;
   display: inline-block;
-  font-size: var(--s0);
+  font-size: calc(0.05vw + 1em);
   height: var(--var4);
   line-height: var(--ratio);
   outline: none;
@@ -126,6 +126,11 @@ a {
     color: $dark-color;
     text-decoration: none;
   }
+  &.btn-primary {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: white;
+  }
 }
 
 main#page {
@@ -136,4 +141,23 @@ main#page {
       min-height: var(--measure);
     }
   }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  tr {
+    vertical-align: baseline;
+  }
+  td {
+    padding: var(--s-2);
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+footer, tfoot {
+  color: var(--color-mid);
 }
