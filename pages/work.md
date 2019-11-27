@@ -9,6 +9,9 @@ intro_paragraph: >
   Features [Netlify CMS](https://www.netlifycms.org), responsive
   CSS Grid layout, sample
   pages and posts, and a continuous deployment workflow.
+cta:
+  text: DOWNLOAD CV
+  url: #
 ---
 
 ## Select Performance Credits
@@ -85,5 +88,3 @@ intro_paragraph: >
 ## Special Skills
 
 Basic Acrobatics, Violin and viola, Basic mandolin, Cello and banjo, Basic French, Shakespeare, Sewing
-
-<a href="/work" class="btn btn-primary">DOWNLOAD CV</a>

@@ -135,7 +135,7 @@ a {
 
 main#page {
   background-color: #f2f2f2;
-  > center-l {
+  #content {
     margin-top: calc(-1 * var(--s5));
     > box-l {
       min-height: var(--measure);

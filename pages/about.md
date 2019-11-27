@@ -6,13 +6,21 @@ section: about
 intro_paragraph: |
   This is an example of a standard Jekyll page. You can edit it with Netlify
   CMS, accessible at `/admin/index.html` or by editing `pages/about.md` in a text editor.
+cta:
+  text: View Work
+  url: /work.html
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-### A heading
+Ania had their first theatrical experience at age 6, playing the Lion in the ‘Play within a Play’ from A Midsummer Night’s Dream. Shakespeare has been a guiding force every since, from studying at the Summer at Winedale programme at the University of Texas at Austin to an internship at Shakespeare’s Globe in London. Their recent directing work with Shakespeare has been for Wellington Summer Shakespeare and the Pop Up Globe in Auckland.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ania discovered a passion for teaching through Americorps, and has taught Shakespeare and theater skills to students from elementary school up to university level. Ania believes in the power of theater to drive social change, and that everyone should have the right to creatively express themselves.
 
-#### Another heading
+Ania has also written for the stage, from a one-person show about tea to an adaptation of John Lyly’s 17th century queer romp Galathea. They were introduced to physical theater through Zen Zen Zo’s theater intensive in New Zealand and, sensing a need for further training, Ania left New Zealand for Blue Lake, CA and a year in the Professional Training Programme at Dell’Arte International School for Physical Theater. Discovering a particular passion for clown, since arriving in New York Ania has performed in queer clown work at The Tank and at To the Binary and Beyond! at The Brick’s Trans Theater Festival. Ania is passionate about queer representation and centers their theatrical practice around queer characters and stories.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+> ‘[T]he cast of six actors do a wonderful job with their multiple roles, with standout performances from Ania Upstill as a saucy Mercutio [and Jillian Geurts as a bold Lady Montague].’
+
+— The Broadway Blog
+
+> ‘[T]he entire cast performs and elucidates the text beautifully, which activates and enlivens the script in a way that feels both faithful and contemporary. Ania Upstill’s tragicomic Mercutio, whose “Queen Mab” monologue was as haunting as the rest of their performance was mercurial, was especially fun to watch.’
+
+— Into More
