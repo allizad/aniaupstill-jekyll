@@ -2,8 +2,22 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-
-{% include page-intro.html %}
-
-{{ content }}
+<main id="page">
+  <cover-l style="background-color: black;" minHeight="33vh">
+    {% include header.html %}
+  </cover-l>
+  <center-l>
+    <box-l>
+      <stack-l>
+        {{ content }}
+      </stack-l>
+    </box-l>
+  </center-l>
+  <footer>
+    <cover-l class="text:center" minHeight="var(--s2)" centered="small">
+      <small>
+        copywright 2019 Ania Upstill
+      </small>
+    </cover-l>
+  </footer>
+</main>

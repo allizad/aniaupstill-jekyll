@@ -5,4 +5,5 @@ box-l {
   /* ↓ For high contrast mode */
   outline: var(--border-thin) solid transparent;
   outline-offset: calc(var(--border-thin) * -1);
+  background-color: white;
 }

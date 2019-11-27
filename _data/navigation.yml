@@ -1,10 +1,14 @@
 # specify main menu items here
 
 - text: about
-  url: /about
+  url: /about.html
+  page: /about
 - text: work
-  url: /work
+  url: /work.html
+  page: /work
 - text: photos
-  url: /photos
+  url: /photos.html
+  page: /photos
 - text: contact
-  url: /contact
+  url: /contact.html
+  page: /contact

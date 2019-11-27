@@ -20,14 +20,6 @@ export default class Box extends HTMLElement {
           [data-i="${this.i}"] {
             padding: ${this.padding};
             border: ${this.borderWidth} solid;
-            ${this.invert ?
-            `background-color: var(--color-light);
-              filter: invert(100%);`
-            : ''}
-          }
-
-          [data-i="${this.i}"] {
-            background-color: inherit;
           }
         </style>
         `.replace(/\s\s+/g, ' ').trim();
@@ -44,7 +36,7 @@ export default class Box extends HTMLElement {
   }
 
   get borderWidth() {
-    return this.getAttribute('borderWidth') || 'var(--border-thin)';
+    return this.getAttribute('borderWidth') || 0;
   }
 
   set borderWidth(val) {
