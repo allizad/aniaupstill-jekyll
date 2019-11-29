@@ -136,7 +136,7 @@ a {
 main#page {
   background-color: #f2f2f2;
   #content {
-    margin-top: calc(-1 * var(--s4));
+    margin-top: calc(-1 * var(--s2));
     > box-l {
       min-height: var(--measure);
     }
@@ -202,5 +202,26 @@ textarea.form-input {
   &.input-lg,
   &.input-sm {
     height: auto;
+  }
+}
+
+
+main > cover-l {
+  background-size: cover;
+  background-position: center;
+  &.photos {
+    background-image: url('img/photos-header.png');
+  }
+  &.index {
+    background-image: url('img/photos-header.png');
+  }
+  &.contact {
+    background-image: url('img/contact-header.png');
+  }
+  &.about {
+    background-image: url('img/about-header.png');
+  }
+  &.work {
+    background-image: url('img/work-header.png');
   }
 }
