@@ -7,8 +7,12 @@ export PATH="./bin:$PATH"
 setup
 build
 
+rm -r public/admin
+cp -R _site/admin public
+
 # Start Jekyll in the background
 bundle exec jekyll build --incremental --watch &
+
 
 # Start Parcel in the background
 yarn parcel serve _site/index.html -d public &

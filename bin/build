@@ -5,5 +5,4 @@ cd "$(dirname $0)/.." || exit
 
 bundle exec jekyll build
 yarn parcel build _site/index.html -d public
-rm -r public/admin
 cp -R _site/admin public
