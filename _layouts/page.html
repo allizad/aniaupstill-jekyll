@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main id="page">
-  <cover-l style="background-color: black;" minHeight="33vh">
+  <cover-l style="background-color: black;" minHeight="33vh" centered="h1">
     {% include header.html %}
   </cover-l>
   <stack-l>
@@ -15,9 +15,11 @@ layout: default
       </box-l>
     </center-l>
     <footer class="text:center">
+      {% if page.cta %}
       <center-l>
         <a href="{{ page.cta.url }}" class="btn btn-primary">{{ page.cta.text }}</a>
       </center-l>
+      {% endif %}
       <cover-l minHeight="var(--s2)" centered="small">
         <small>
           &#169; 2019 Ania Upstill

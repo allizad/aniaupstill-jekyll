@@ -102,7 +102,7 @@ a {
 
 .btn {
   appearance: none;
-  background: $bg-color-light;
+  background: transparent;
   border: var(--border-thin) solid $primary-color;
   border-radius: var(--s-6);
   color: $primary-color;
@@ -136,7 +136,7 @@ a {
 main#page {
   background-color: #f2f2f2;
   #content {
-    margin-top: calc(-1 * var(--s5));
+    margin-top: calc(-1 * var(--s4));
     > box-l {
       min-height: var(--measure);
     }
@@ -160,4 +160,47 @@ table {
 
 footer, tfoot {
   color: var(--color-mid);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+form {
+  .label {
+    display: block;
+    line-height: var(--line-height);
+  }
+}
+
+input, textarea {
+  appearance: none;
+  background: #eee;
+  background-image: none;
+  border: var(--border-thin) solid transparent;
+  border-radius: var(--border-radius);
+  color: var(--color-dark);
+  display: block;
+  max-width: 100%;
+  outline: none;
+  padding: var(--s0) var(--s-1);
+  position: relative;
+  transition: background .2s, border .2s, box-shadow .2s, color .2s;
+  width: 100%;
+  &:focus {
+    border-color: $primary-color;
+  }
+  &::placeholder {
+    color: var(--color-mid);
+  }
+}
+
+// Form element: Textarea
+textarea.form-input {
+  &,
+  &.input-lg,
+  &.input-sm {
+    height: auto;
+  }
 }

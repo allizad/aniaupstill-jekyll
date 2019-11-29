@@ -1,4 +1,4 @@
-stack-l {
+stack-l, stack-s {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -6,4 +6,8 @@ stack-l {
 
 stack-l > * + * {
   margin-top: var(--s1);
+}
+
+stack-s > * + * {
+  margin-top: var(--s-1);
 }

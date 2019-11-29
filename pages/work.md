@@ -3,12 +3,8 @@ layout: page
 title: Ania Upstill - Work
 permalink: /work
 section: work
-intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+description: >
+  TODO: SEO-friendly description
 cta:
   text: DOWNLOAD CV
   url: #
@@ -18,7 +14,7 @@ cta:
 
 <table>
   <tbody>
-    {% for item in site.data.performance.credits %}
+    {% for item in site.data.work.performance_credits %}
       <tr>
         <td>{{ item.name }}</td>
         <td>{{ item.role }}</td>
@@ -30,7 +26,7 @@ cta:
     <tr>
       <td colspan="3">
         <stack-l>
-          {% for note in site.data.performance.notes %}
+          {% for note in site.data.work.performance_notes %}
             <p><small>{{note}}</small></p>
           {% endfor %}
         </stack-l>
@@ -43,7 +39,7 @@ cta:
 
 <table>
   <tbody>
-    {% for item in site.data.production.credits %}
+    {% for item in site.data.work.production_credits %}
       <tr>
         <td>{{ item.name }}</td>
         <td>{{ item.role }}</td>
@@ -54,7 +50,7 @@ cta:
   <tfoot>
     <tr>
       <td colspan="3">
-        {% for note in site.data.production.notes %}
+        {% for note in site.data.work.production_notes %}
           <p><small>{{note}}</small></p>
         {% endfor %}
       </td>
@@ -66,7 +62,7 @@ cta:
 
 <table>
   <tbody>
-    {% for item in site.data.training.trainings %}
+    {% for item in site.data.work.trainings %}
       <tr>
         <td>{{ item.school }}</td>
         <td>{{ item.name }}</td>
@@ -77,7 +73,7 @@ cta:
   <tfoot>
     <tr>
       <td colspan="3">
-          {% for note in site.data.training.notes %}
+          {% for note in site.data.work.training_notes %}
             <p><small>{{note}}</small></p>
           {% endfor %}
       </td>
