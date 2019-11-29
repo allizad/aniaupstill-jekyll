@@ -22,7 +22,7 @@ cta:
       <tr>
         <td>{{ item.name }}</td>
         <td>{{ item.role }}</td>
-        <td>{{ item.company }}</td>
+        <td>{% if item.company %}{{ item.company }}{% else %}&nbsp;{% endif %}</td>
       </tr>
     {% endfor %}
   </tbody>
