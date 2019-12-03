@@ -1,0 +1,17 @@
+tour_dates:
+  - festival: FronteraFest
+    location: Austin, TX
+    dates: January 30th - February 1st, 2020
+    link: ''
+  - festival: Auckland Pride Festival
+    location: Auckland, New Zealand
+    dates: February 7th, 8th and 11th and 12th, 2020
+    link: ''
+  - festival: Adelaide Fringe Festival
+    location: Adelaide, Australia
+    dates: February 15th, 2020
+    link: ''
+  - festival: NZ Fringe Festival
+    location: New Zealand
+    dates: March 8th - 12th, 2020
+    link: ''

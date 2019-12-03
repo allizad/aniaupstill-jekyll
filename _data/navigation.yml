@@ -1,14 +1,22 @@
 # specify main menu items here
-
 - text: about
   url: /about.html
   page: /about
 - text: work
   url: /work.html
   page: /work
+# - text: educator
+#   url: /educator.html
+#   page: /educator
+# - text: clown
+#   url: /clown.html
+#   page: /clown
 - text: photos
   url: /photos.html
   page: /photos
+- text: transhumance
+  url: /transhumance.html
+  page: /transhumance
 - text: contact
   url: /contact.html
   page: /contact
