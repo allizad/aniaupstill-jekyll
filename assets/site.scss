@@ -78,9 +78,20 @@ cluster-l ul {
   color: $light-color;
 }
 
+h1, h2, h3, h4, h5, h6, .nav, .btn {
+  font-weight: 500;
+}
+
+.nav, .btn {
+  font-family: 'Lato';
+}
+
 .nav a {
   text-decoration: none;
-  font-weight: 600;
+  &:hover {
+    color: #fb9470;
+    transition: all 0.1s;
+  }
   &:active, &.active {
     color: #ffcccc;
   }
@@ -224,4 +235,8 @@ main > cover-l {
   &.work {
     background-image: url('img/work-header.png');
   }
+}
+
+center-l {
+  width: var(--measure);
 }

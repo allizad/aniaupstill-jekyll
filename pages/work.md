@@ -6,7 +6,7 @@ section: work
 description: >
   TODO: SEO-friendly description
 cta:
-  text: DOWNLOAD CV
+  text: Download CV
   url: #
 ---
 

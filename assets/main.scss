@@ -1,2 +1,14 @@
 @import "./site";
 @import "./layout/*.css";
+
+
+a.logo-anchor svg {
+  height: 2rem;
+  path {
+    fill: white;
+  }
+}
+a.logo-anchor:hover svg .svg-up {
+  transform: translate(0, -0.2rem);
+  transition: all ease-out 0.2s;
+}

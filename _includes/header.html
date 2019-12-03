@@ -1,7 +1,9 @@
 <header>
   <cluster-l justify="space-between">
     <div>
-      <a href="{{ "/" | relative_url }}"><img src="https://www.fillmurray.com/100/50" alt=""></a>
+      <a class="logo-anchor" href="{{ "/" | relative_url }}">
+        {% include aniaupstill.svg %}
+      </a>
       <cluster-l justify="flex-start">
         {% include navigation.html navigation=site.data.navigation %}
       </cluster-l>
