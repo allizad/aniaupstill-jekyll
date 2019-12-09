@@ -1,24 +1,21 @@
 ---
 layout: page
 title: Clown
+header: Clown
 permalink: /clown
 section: clown
 description: |
   TODO: SEO-friendly description
-cta:
-  text: View Work
-  url: /work.html
 ---
 
-In the 2019/2020 school year Ania is a Teaching Artist with Lincoln Center Theater’s Open Stages Education Program and People’s Theatre Project in NYC. Past work includes work with the Pop Up Globe in Auckland, NZ, and with Shakespeare Globe Center New Zealand. They participated in SGCNZ’s inaugural Emerging Theatre Practitioners’ Program at Shakespeare’s Globe in London in 2015, interning with Shakespeare’s Globe’s Education Department.
+Ania studied clown at Dell’Arte International with Lauren Wilson, Stephanie and Joe. They have also taken workshops bouffon Eric (?) [Red Bastard] (Bouffon) and Avner the Eccentric, among others.
 
-Ania teaches clown classes and workshops in NYC and abroad. In NYC they teach weekly drop in clown classes at The Friend Ship in Williamsburg on Wednesday evenings from 6:30 - 8pm. They have also taught an intensive course for Clowns Without Borders in Palestine, upskilling local clowns.
+They have performed at a number of cabaret and circus events in NYC and are a part of the Circus Warehouse’s Intensive program. They have also volunteered twice to teach and perform clown with Clowns Without Borders in Palestine. You can read more about their experience [here].
 
-In 2020 they will be teaching clown workshops and classes on tour internationally alongside their solo clown show Transhumance. Dates and times TBD.
+Ania believes that clown is an important and ultimately humanitarian discipline, teaching us to be vulnerable, responsive and present to the moment. They particularly enjoy teaching clown, and love helping their students discover the clown(s) that live within each of them. When they are in the city they teach weekly drop-in classes in NYC at The Friend Ship and teach occasional longer form workshops. They are interested in how clown can be applied to other disciplines and are planning a Clowning for Consent workshop for January 2020 that uses clown as a disruptive technique to defuse potentially violent situations.
 
-To inquire about clown workshops, or to get on their mailing list for future classes in New York, send them an inquiry through the Contact form.
+To book Ania to teach a clown workshop or to inquire about their clown work, please [Contact Us](/contact.html).
 
 <center-l>
-  <a href="" class="btn">Sign Up</a>
-  <a href="" class="btn">Contact</a>
+  <a href="/contact.html" class="btn">Contact</a>
 </center-l>

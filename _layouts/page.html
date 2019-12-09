@@ -3,13 +3,16 @@ layout: default
 ---
 
 <main id="page">
-  <cover-l style="background-color: transparent" class="{{page.section}}" minHeight="33vh" centered="h1">
+  <cover-l class="{{page.section}}" minHeight="33vh" centered="h1">
     {% include header.html %}
   </cover-l>
   <stack-l>
-    <center-l id="content">
+    <center-l id="main-content">
       <box-l>
         <stack-l>
+          {% if page.header %}
+            <div class="text:center"><h1>{{ page.header }}</h1></div>
+          {% endif %}
           {{ content }}
         </stack-l>
       </box-l>
@@ -22,7 +25,7 @@ layout: default
       {% endif %}
       <cover-l minHeight="var(--s2)" centered="small">
         <small>
-          &#169; 2019 Ania Upstill
+          &#169; Copywright 2019 Ania Upstill
         </small>
       </cover-l>
     </footer>

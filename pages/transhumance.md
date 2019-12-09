@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Transhumance
+header: Transhumance
 permalink: /transhumance
 section: transhumance
 description: |

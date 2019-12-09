@@ -1,0 +1,79 @@
+theatre:
+  - name: In Many Hands
+    role: Table Captain
+    company: BAM Next Wave Festival
+  - name: Thou Shalt Not*
+    role: Frances Hall
+    company: Thinkery & Verse (NJ)
+  - name: Gospel of the Marys*
+    role: Ensemble/Deviser
+    company: Furnace Festival (NY)
+  - name: Six Years Old Staged Reading*
+    role: Adalaide
+    company: Bushwick Starr (NY)
+  - name: Romeo and Juliet
+    role: Mercutio/Paris/Apothecary
+    company: Hypokrit Theatre (NY)
+  - name: Much Ado About Nothing
+    role: Understudy
+    company: Pop Up Globe (NZ)
+  - name: Measure for Measure
+    role: Isabella
+    company: Friends for Juliet (NZ)
+  - name: Richard III
+    role: Anne
+    company: The Bacchanals (NZ)
+clown_cab:
+  - name: Palestine Tours 2019
+    role: Clown
+    company: Clowns Without Borders (US)
+  - name: Cirquedelique*
+    role: Steve (Clown)
+    company: Eris Revolution (NY)
+  - name: Hot Mess
+    role: Drag King
+    company: House of Yes (NY)
+  - name: Trans Voices Cabaret
+    role: Singer
+    company: The Duplex (NY)
+  - name: Piesexual*
+    role: Clown/Deviser
+    company: The Tank’s Pride Fest (NY)
+production:
+  - name: Holy Day
+    role: Producer
+    company: The New Ohio (NY)
+  - name: Soft N Hard
+    role: Producer
+    company: Barbarian Productions
+  - name: Much Ado About Nothing
+    role: Assistant Director
+    company: Pop Up Globe
+  - name: "Galathea: Into the Bush"
+    role: Director
+    company: Twin City Productions
+  - name: Hamlet
+    role: Director/Artistic Director
+    company: The Lord Lackbeards
+  - name: Alone It Stands
+    role: Director**
+    company: Wellington Irish Society
+training:
+  - school: Circus Warehouse
+    name: Intensive Program
+    year: 2018 - Present
+  - school: Dell’Arte School of Physical Theatre, CA
+    name: Practitioner Training Programme
+    year: 2018
+  - school: Centrepoint Theatre, NZ
+    name: Directing Intern
+    year: 2016
+  - school: Zen Zen Zo
+    name: NZ Stomp
+    year: 2015
+  - school: University of Texas at Austin
+    name: Shakespeare at Winedale
+    year: 2009, 2011
+  - school: University of Texas at Austin
+    name: Anthropology (BA)
+    year: 2011

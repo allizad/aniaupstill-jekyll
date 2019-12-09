@@ -17,4 +17,4 @@ description: >
   </div>
 </div> -->
 
-<a href="/work.html" class="btn">VIEW CURRENT WORK</a>
+<a href="/performer.html" class="btn">VIEW WORK</a>
