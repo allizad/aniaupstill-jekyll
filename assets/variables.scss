@@ -1,3 +1,8 @@
+$color-primary: #F2622E;
+$color-light: #00060D;
+$color-dark: #00060D;
+$color-light: #F2F2F2;
+
 :root {
   /* Fonts */
   --font-plain: 'Lato';
@@ -5,14 +10,15 @@
   --font-mono: Menlo, Courier, Courier New, Andale Mono, monospace;
 
   /* Colors */
-  --color-dark: hsl(0, 0%, 2%);
+  --color-dark: $color-dark;
   --color-darkish: hsl(0, 0%, 25%);
   --color-lightish: hsl(0, 0%, 90%);
-  --color-light: hsl(0, 0%, 98%);
+  --color-light: $color-light;
   --color-mid: hsl(0, 0%, 50%);
 
   /* Scale */
   --ratio: 1.4;
+  --s-7: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio));
   --s-6: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio));
   --s-5: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio));
   --s-4: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio));

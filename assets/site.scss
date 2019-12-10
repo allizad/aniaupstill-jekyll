@@ -1,11 +1,3 @@
-@import "./normalize.css";
-@import "./variables.scss";
-
-$primary-color: #F2622E;
-$bg-color-light: #00060D;
-$dark-color: #00060D;
-$light-color: #F2F2F2;
-
 // Global styles
 
 :root {
@@ -74,8 +66,8 @@ cluster-l ul {
 }
 
 #home-cover {
-  background-color: $dark-color;
-  color: $light-color;
+  background-color: $color-dark;
+  color: $color-light;
 }
 
 h1, h2, h3, h4, h5, h6, .nav, .btn {
@@ -98,11 +90,11 @@ h1, h2, h3, h4, h5, h6, .nav, .btn {
 }
 
 a {
-  color: $primary-color;
+  color: $color-primary;
 }
 
 .color-primary {
-  color: $primary-color;
+  color: $color-primary;
 }
 
 .text-uppercase {
@@ -114,9 +106,9 @@ a {
 .btn {
   appearance: none;
   background: transparent;
-  border: var(--border-thin) solid $primary-color;
+  border: var(--border-thin) solid $color-primary;
   border-radius: var(--s-6);
-  color: $primary-color;
+  color: $color-primary;
   cursor: pointer;
   display: inline-block;
   font-size: calc(0.05vw + 1em);
@@ -133,17 +125,17 @@ a {
   letter-spacing: var(--s-6);
   &:focus,
   &:hover {
-    background: rgba($primary-color, 0.5);
-    color: $primary-color;
+    background: rgba($color-primary, 0.5);
+    color: $color-primary;
     text-decoration: none;
   }
   &.btn-primary {
-    background: $primary-color;
-    border-color: $primary-color;
+    background: $color-primary;
+    border-color: $color-primary;
     color: white;
     &:focus, &:hover {
-      background: darken($primary-color, 5%);
-      border-color: darken($primary-color, 5%);
+      background: darken($color-primary, 5%);
+      border-color: darken($color-primary, 5%);
     }
   }
 }
@@ -205,7 +197,7 @@ input, textarea {
   transition: background .2s, border .2s, box-shadow .2s, color .2s;
   width: 100%;
   &:focus {
-    border-color: $primary-color;
+    border-color: $color-primary;
   }
   &::placeholder {
     color: var(--color-mid);
@@ -236,7 +228,7 @@ main > cover-l {
     background-image: url('img/contact-header.png');
   }
   &.about {
-    background-image: url('img/about-header.png');
+    background-image: url('img/photos-header.png');
   }
   &.work {
     background-image: url('img/work-header.png');
@@ -250,4 +242,9 @@ main > cover-l {
   &.performer, &.educator {
     background-color: var(--color-dark);
   }
+}
+
+.align-middle {
+  display: flex;
+  align-items: center;
 }

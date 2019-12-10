@@ -2,18 +2,20 @@
 - text: about
   url: /about.html
   page: /about
-- text: performer
-  url: /performer.html
-  page: /performer
-- text: educator
-  url: /educator.html
-  page: /educator
-- text: clown
-  url: /clown.html
-  page: /clown
-# - text: photos
-#   url: /photos.html
-#   page: /photos
+- text: work
+  subnav:
+  - text: performer
+    url: /performer.html
+    page: /performer
+  - text: educator
+    url: /educator.html
+    page: /educator
+  - text: clown
+    url: /clown.html
+    page: /clown
+- text: photos
+  url: /photos.html
+  page: /photos
 - text: transhumance
   url: /transhumance.html
   page: /transhumance

@@ -1,6 +1,9 @@
+@import "./normalize.css";
+@import "./variables";
+@import "./mixins";
 @import "./site";
 @import "./layout/*.css";
-
+@import "./components/manifest";
 
 a.logo-anchor svg {
   height: 2rem;

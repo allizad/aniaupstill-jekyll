@@ -1,8 +1,28 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 <ul class="list-unstyled nav">
   {% for item in include.navigation %}
+    {% if item.subnav %}
+    <li>
+      <div class="dropdown dropdown-right">
+        <a href="#" class="text-uppercase dropdown-toggle align-middle ">
+          {{ item.text }}&nbsp;
+          <small><i class="icon icon-caret"></i></small>
+        </a>
+        <box-l class="menu" padding="var(--s0)">
+          <ul>
+            {% for subitem in item.subnav %}
+            <li>
+              <a href="{{ subitem.url }}" class="text-uppercase">{{ subitem.text }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </box-l>
+      </div>
+    </li>
+    {% else %}
     <li>
       <a class="text-uppercase{% if item.page == navurl %} active{% endif %}" href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}</a>
     </li>
+    {% endif %}
   {% endfor %}
 </ul>

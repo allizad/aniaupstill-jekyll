@@ -1,0 +1,63 @@
+// Menus
+box-l.menu {
+  background: $color-light;
+}
+
+.menu {
+  @include shadow-variant(.05rem);
+  border-radius: var(--border-radius);
+  list-style: none;
+  margin: 0;
+  min-width: calc(var(--measure) / 3);
+  padding: var(--s-1);
+  transform: translateY(var(--s0));
+  z-index: 100;
+
+  &.menu-nav {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  li {
+    // padding: 0 var(--s0);
+    // text-decoration: none;
+    // user-select: none;
+
+    & > a {
+      border-radius: var(--border-radius);
+      display: block;
+      // margin: 0 calc(-1 * var(--s-2));
+      padding: var(--s-3) var(--s-3);
+      text-decoration: none;
+      &:focus,
+      &:hover {
+        background: rgba($color-primary, 0.2);
+        color: $color-primary;
+      }
+      &:active,
+      &.active {
+        background: rgba($color-primary, 0.2);
+        color: $color-primary;
+      }
+    }
+
+    .form-checkbox,
+    .form-radio,
+    .form-switch {
+      margin: var(--ratio) 0;
+    }
+
+    & + .menu-item {
+      margin-top: var(--s0);
+    }
+  }
+
+  .menu-badge {
+    float: right;
+    padding: var(--s0) 0;
+
+    .btn {
+      margin-top: calc(-1 * var(--ratio));
+    }
+  }
+}
