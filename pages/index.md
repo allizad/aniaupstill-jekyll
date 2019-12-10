@@ -11,6 +11,9 @@ description: >
 
 # Ania is an actor, director, and teaching artist based in NYC
 
+
+{% include carousel.html %}
+
 <!-- <div class="video-background">
   <div class="video-foreground">
     <iframe src="https://www.youtube.com/embed/xEql8ym2tLc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
