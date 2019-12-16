@@ -17,5 +17,5 @@ Ania believes that clown is an important and ultimately humanitarian discipline,
 To book Ania to teach a clown workshop or to inquire about their clown work, please [Contact Us](/contact.html).
 
 <center-l>
-  <a href="/contact.html" class="btn">Contact</a>
+  <a href="/contact.html" class="btn">Contact Ania</a>
 </center-l>

@@ -7,6 +7,15 @@
   }
 }
 
+// contact
+.contact-content center-l#main-content {
+  max-width: 70vw !important;
+  box-l {
+    max-width: unset;
+    min-width: 70vw !important;
+  }
+}
+
 // background images for headers
 main > cover-l {
   background-size: cover;
