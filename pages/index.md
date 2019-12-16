@@ -9,7 +9,7 @@ description: >
 ---
 
 
-# Ania is an actor, director, and teaching artist based in NYC
+# Ania Upstill is a performer, educator and clown based in NYC
 
 
 {% include carousel.html %}

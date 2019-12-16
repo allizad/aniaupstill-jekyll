@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, .nav, .btn {
 .nav a {
   text-decoration: none;
   &:hover {
-    color: #fb9470;
+    color: lighten($color-primary, 30%);
     transition: all 0.1s;
   }
   &:active, &.active {
@@ -146,7 +146,6 @@ main#page {
     margin-top: calc(-1 * var(--s2));
     > box-l {
       min-height: var(--measure);
-      min-width: var(--measure);
     }
   }
 }
@@ -210,37 +209,6 @@ textarea.form-input {
   &.input-lg,
   &.input-sm {
     height: auto;
-  }
-}
-
-
-main > cover-l {
-  background-size: cover;
-  background-position: center;
-  background-color: transparent;
-  &.photos {
-    background-image: url('img/photos-header.png');
-  }
-  &.index {
-    background-image: url('img/photos-header.png');
-  }
-  &.contact {
-    background-image: url('img/contact-header.png');
-  }
-  &.about {
-    background-image: url('img/photos-header.png');
-  }
-  &.work {
-    background-image: url('img/work-header.png');
-  }
-  &.transhumance {
-    background-image: url('img/transhumance-header.png');
-  }
-  &.clown {
-    background-image: url('img/clown-header.png');
-  }
-  &.performer, &.educator {
-    background-color: var(--color-dark);
   }
 }
 

@@ -16,7 +16,7 @@ cta:
 
 — John Cassavetes
 
-Ania has worked across many aspects of theatre and particularly enjoy artistic collaboration and ensemble work. They have had a lifelong love affair with Shakespeare and are enjoying a current infatuation with clown.
+Ania has worked across many aspects of theatre and they particularly enjoy artistic collaboration and ensemble work. They have had a lifelong love affair with Shakespeare and have directed and performed in more than half of the canon. Ania has recently been inspired by the joy and wonder of clown.
 
 Ania identifies as queer and genderqueer, is passionate about queer representation and centers their theatrical practice around LGBTQIA+ characters and stories, utilising clown, drag, physical theater and music. Ania has performed an original queer clown show, Piesexual, at The Tank's Pridefest, at various cabaret and showcases for new work (including Undiscovered Countries' November 2018 showcase) and in Hypokrit theater's R+J: A Reimagination of Romeo + Juliet.
 

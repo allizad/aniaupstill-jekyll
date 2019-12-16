@@ -24,7 +24,7 @@ Get updates for Ania's next clown workshops and classes by [signing up for the n
   <a href="/contact.html" class="btn">Contact</a>
 </center-l>
 
-## Teaching Artist Work
+## Selected Teaching Artist Work
 
 <table>
   <tbody>

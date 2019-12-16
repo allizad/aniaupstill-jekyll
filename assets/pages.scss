@@ -1,0 +1,45 @@
+// photos
+.photos-content center-l#main-content {
+  max-width: 90vw !important;
+  box-l {
+    max-width: unset;
+    min-width: 90vw !important;
+  }
+}
+
+// background images for headers
+main > cover-l {
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  &.photos {
+    background-image: url('img/photos-header.png');
+  }
+  &.index {
+    background-image: url('img/photos-header.png');
+  }
+  &.contact {
+    background-image: url('img/contact-header.png');
+  }
+  &.about {
+    background-image: url('img/photos-header.png');
+  }
+  &.work {
+    background-image: url('img/work-header.png');
+  }
+  &.transhumance {
+    background-image: url('img/transhumance-header.png');
+    background-position: top;
+  }
+  &.clown {
+    background-image: url('img/work-header.png');
+  }
+  &.performer {
+    background-image: url('img/performer-header.png');
+    background-position: top;
+  }
+  &.educator {
+    background-image: url('img/clown-header.png');
+  }
+  background-color: var(--color-dark);
+}
