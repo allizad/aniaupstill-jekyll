@@ -24,7 +24,7 @@ Come dive into the absurd as we follow one clown’s magical journey across the 
         <td>{{ item.festival }}</td>
         <td>{{ item.location }}</td>
         <td>{{ item.dates }}</td>
-        <td><a href="{{ item.link }}">Buy Tickets</a>{{ item.link }}</td>
+        <td><a href="{{ item.link.url }}">{{ item.link.text }}</a></td>
       </tr>
     {% endfor %}
   </tbody>

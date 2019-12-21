@@ -5,9 +5,6 @@ permalink: /work
 section: work
 description: >
   TODO: SEO-friendly description
-cta:
-  text: Download CV
-  url: #
 ---
 
 ## Select Performance Credits

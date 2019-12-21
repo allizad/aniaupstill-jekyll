@@ -3,15 +3,23 @@ tour_dates:
     location: Austin, TX
     dates: January 30th - February 1st, 2020
     link: ''
+      url: "#"
+      text: TBD
   - festival: Auckland Pride Festival
     location: Auckland, New Zealand
     dates: February 7th, 8th and 11th and 12th, 2020
     link: ''
+      url: "#"
+      text: TBD
   - festival: Adelaide Fringe Festival
     location: Adelaide, Australia
     dates: February 15th, 2020
-    link: ''
+    link:
+      url: https://adelaidefringe.com.au/fringetix/transhumance-af2020?venue=166%3A419
+      text: Buy Tickets
   - festival: NZ Fringe Festival
-    location: New Zealand
+    location: Wellington, New Zealand
     dates: March 8th - 12th, 2020
-    link: ''
+    link:
+      url: https://bats.co.nz/whats-on/transhumance/
+      text: Buy Tickets
