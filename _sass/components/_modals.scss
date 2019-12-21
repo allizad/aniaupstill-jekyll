@@ -1,0 +1,69 @@
+// Modals
+.modal {
+  align-items: center;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: var(--s1);
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: transparent;
+
+  &:target,
+  &.active {
+    display: flex;
+    opacity: 1;
+    z-index: 4;
+
+    .modal-overlay {
+      background: rgba($bg-color, .75);
+      bottom: 0;
+      cursor: default;
+      display: block;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .modal-container {
+      animation: slide-down .2s ease 1;
+      z-index: 0;
+    }
+  }
+
+  &.modal-sm {
+    .modal-container {
+      max-width: var(--measure);
+      padding: 0 var(--s-1);
+    }
+  }
+
+  &.modal-lg {
+    .modal-overlay {
+      background: $bg-color-light;
+    }
+
+    .modal-container {
+      box-shadow: none;
+      max-width: calc(var(--measure) * 3);
+    }
+  }
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 75vh;
+  max-width: calc(var(--measure) * 2);
+  padding: 0 var(--s-1);
+  width: 100%;
+
+  &.modal-fullheight {
+    max-height: 100vh;
+  }
+}
