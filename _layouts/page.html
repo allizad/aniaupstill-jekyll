@@ -20,7 +20,7 @@ layout: default
     <footer class="text:center">
       {% if page.cta %}
       <center-l>
-        <a href="{{ page.cta.url }}" class="btn btn-primary">{{ page.cta.text }}</a>
+        <a {% if page.cta.download %}download{% endif %} href="{{ page.cta.url }}" class="btn btn-primary">{{ page.cta.text }}</a>
       </center-l>
       {% endif %}
       <cover-l minHeight="var(--s2)" centered="small">

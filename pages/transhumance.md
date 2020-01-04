@@ -11,9 +11,9 @@ cta:
   url: /work.html
 ---
 
-Transhumance is Ania’s solo genderqueer clown show, going on an international tour in 2020.
+_Transhumance_ is Ania’s solo genderqueer clown show, going on an international tour in 2020. The show was born through the Undiscovered Countries Blast Off Incubator program in Spring 2019, after Ania realized that all of their clowning actually concerned gender. Specifically, the experience of being genderqueer.
 
-Come dive into the absurd as we follow one clown’s magical journey across the landscape of gender in search of a place to call home. Join NYC-based circus artist Ania Upstill in this playful, heartfelt exploration of gender as they dare to imagine a world in-between. What does it mean to exist between two locations? To travel in between? To find your place in the middle? To embrace a joyful revolution? Come laugh at a clown’s playful exploration of what it means to be a trans human.
+_Transhumance_ follows one clown’s magical journey across the landscape of gender in search of a place to call home. The show asks,  What does it mean to exist between two locations? To travel in between? To find your place in the middle? To embrace a joyful revolution? The audience are invited to come laugh at a clown’s playful exploration of what it means to be a trans human.
 
 ## Tour Dates 2020
 

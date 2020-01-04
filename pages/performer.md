@@ -7,13 +7,14 @@ section: performer
 description: |
   TODO: SEO-friendly description
 cta:
-  text: Download CV
-  url: #
+  text: Download Performance CV
+  url: /assets/CV.pdf
+  download: true
 ---
 
 Ania is a theatre, circus and cabaret performer. They specialize in clown, devised work and Shakespeare. They have performed at venues around New York City, and are taking their solo show, Transhumance, on tour internationally in 2020.
 
-> ‘Ania Upstill’s tragicomic Mercutio, whose “Queen Mab” monologue was as haunting as the rest of their performance was mercurial, was especially fun to watch.’
+> Ania Upstill’s tragicomic Mercutio, whose “Queen Mab” monologue was as haunting as the rest of their performance was mercurial, was especially fun to watch.
 
 — [Into More](https://www.intomore.com/culture/rj-is-an-all-women-and-genderqueer-feminist-retelling-of-romeo-juliet)
 
