@@ -138,6 +138,21 @@ a {
       border-color: darken($color-primary, 5%);
     }
   }
+  // Button Clear
+  &.btn-clear {
+    background: transparent;
+    border: 0;
+    color: currentColor;
+
+    &:focus,
+    &:hover {
+      opacity: .95;
+    }
+
+    &::before {
+      content: "\2715";
+    }
+  }
 }
 
 main#page {
@@ -215,4 +230,8 @@ textarea.form-input {
 .align-middle {
   display: flex;
   align-items: center;
+}
+
+.control-width {
+  max-width: var(--measure);
 }

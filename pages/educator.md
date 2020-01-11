@@ -17,10 +17,10 @@ Ania also teaches clown classes and workshops in NYC and abroad. In NYC they hol
 
 in 2020 they will be teaching clown workshops and classes alongside the international tour of their solo clown show Transhumance.  Dates and times coming soon.
 
-Get updates for Ania's next clown workshops and classes by [signing up for the newsletter](signup)! To book workshops, [contact us](/contact.html).
+Get updates for Ania's next clown workshops and classes by [signing up for the newsletter](#signup)! To book workshops, [contact us](/contact.html).
 
 <center-l>
-  <a href="" class="btn">Sign Up</a>
+  <a href="#signup" class="btn">Sign Up</a>
   <a href="/contact.html" class="btn">Contact</a>
 </center-l>
 
