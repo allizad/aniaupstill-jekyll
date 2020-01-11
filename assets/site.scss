@@ -159,7 +159,7 @@ main#page {
   background-color: #f2f2f2;
   #main-content {
     margin-top: calc(-1 * var(--s2));
-    > box-l {
+    > box-l:first-child {
       min-height: var(--measure);
     }
   }
@@ -234,4 +234,9 @@ textarea.form-input {
 
 .control-width {
   max-width: var(--measure);
+}
+
+.bg\:dark {
+  background-color: #866f7d;
+  color: var(--color-light);
 }
