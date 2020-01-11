@@ -21,6 +21,7 @@ Ania is a theatre, circus and cabaret performer. They specialize in clown, devis
 
 ## Theatre
 
+<!-- TODO: fix the layout of the table on mobile -->
 <table>
   <tbody>
     {% for item in site.data.performer.theatre %}
