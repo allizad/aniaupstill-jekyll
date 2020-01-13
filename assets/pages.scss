@@ -28,7 +28,8 @@ main > cover-l {
     background-image: url('img/photos-header.png');
   }
   &.contact {
-    background-image: url('img/contact-header.png');
+    background-image: url('img/Contact.jpg');
+    background-position: 0% 45%;
   }
   &.about {
     background-image: url('img/photos-header.png');
@@ -44,8 +45,7 @@ main > cover-l {
     background-image: url('img/work-header.png');
   }
   &.performer {
-    background-image: url('img/performer-header.png');
-    background-position: top;
+    background-image: url('img/rj/18.png');
   }
   &.educator {
     background-image: url('img/clown-header.png');

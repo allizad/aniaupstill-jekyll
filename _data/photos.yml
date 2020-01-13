@@ -1,0 +1,69 @@
+headshots:
+  - img_path: assets/img/headshots/01.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/02.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/03.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/04.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/05.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/06.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/07.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/08.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/09.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/10.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/11.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/12.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/13.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/14.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/15.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/16.jpg
+    description: add meta description
+  - img_path: assets/img/headshots/17.jpg
+    description: add meta description
+rj:
+  - img_path: assets/img/rj/18.png
+    description: add meta description
+  - img_path: assets/img/rj/19.png
+    description: add meta description
+  - img_path: assets/img/rj/20.png
+    description: add meta description
+  - img_path: assets/img/rj/21.png
+    description: add meta description
+  - img_path: assets/img/rj/22.png
+    description: add meta description
+  - img_path: assets/img/rj/23.png
+    description: add meta description
+  - img_path: assets/img/rj/24.png
+    description: add meta description
+production:
+  - img_path: assets/img/prod1.png
+    description: add meta description
+  - img_path: assets/img/prod2.png
+    description: add meta description
+  - img_path: assets/img/prod3.png
+    description: add meta description
+  - img_path: assets/img/prod4.png
+    description: add meta description
+  - img_path: assets/img/prod5.png
+    description: add meta description
+  - img_path: assets/img/prod6.png
+    description: add meta description
+  - img_path: assets/img/prod7.png
+    description: add meta description
+  - img_path: assets/img/prod8.png
+    description: add meta description
+  - img_path: assets/img/prod9.png
+    description: add meta description

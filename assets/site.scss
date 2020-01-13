@@ -97,6 +97,22 @@ a {
   color: $color-primary;
 }
 
+.color\:white {
+  color: white !important;
+}
+
+.position\:relative {
+  position: relative;
+}
+
+.position\:absolute {
+  position: absolute;
+}
+
+.right\:0 {
+  right: 0;
+}
+
 .text-uppercase {
   font-variant: small-caps;
   letter-spacing: 0.08rem;
@@ -185,7 +201,7 @@ textarea.form-input {
 }
 
 .bg\:dark {
-  background-color: #866f7d;
+  background-color: #b9b7b7;
   color: var(--color-light);
 }
 

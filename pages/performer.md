@@ -10,6 +10,7 @@ cta:
   text: Download Performance CV
   url: /assets/CV.pdf
   download: true
+logo_fill: black
 ---
 
 Ania is a theatre, circus and cabaret performer. They specialize in clown, devised work and Shakespeare. They have performed at venues around New York City, and are taking their solo show, Transhumance, on tour internationally in 2020.

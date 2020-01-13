@@ -11,43 +11,35 @@ cta:
   url: /contact.html
 ---
 
-<stack-l>
-
-  <a href="#modal-id" class="btn">Open Modal</a>
-
-  <div class="modal modal-lg" id="modal-id">
-    <a href="#close" class="modal-overlay" aria-label="Close"></a>
-    <div class="modal-container">
-      <a href="#close" class="btn btn-clear" aria-label="Close"></a>
-      <center-l centered="img">
+<!-- <div class="modal modal-lg" id="modal-id">
+  <a href="#close" class="modal-overlay" aria-label="Close"></a>
+  <div class="modal-container">
+    <center-l centered="img">
+      <div class="position:relative">
+        <a href="#close" class="btn btn-clear color:white position:absolute right:0" aria-label="Close"></a>
         <img src="/assets/img/headshot1.png" alt="">
-      </center-l>
-    </div>
+      </div>
+    </center-l>
   </div>
+</div> -->
 
-
-
+<stack-l>
+  <!-- <a href="#modal-id" class="btn">Open Modal</a> -->
   <grid-l>
-    <img src="/assets/img/headshot1.png" alt="">
-    <img src="/assets/img/headshot2.png" alt="">
-    <img src="/assets/img/headshot3.png" alt="">
+    {% for photo in site.data.photos.headshots %}
+      <img src="{{photo.img_path}}" alt="{{photo.description}}">
+    {% endfor %}
   </grid-l>
 
   <grid-l>
-    <img src="/assets/img/urban1.png" alt="">
-    <img src="/assets/img/urban2.png" alt="">
-    <img src="/assets/img/urban3.png" alt="">
+    {% for photo in site.data.photos.rj %}
+      <img src="{{photo.img_path}}" alt="{{photo.description}}">
+    {% endfor %}
   </grid-l>
 
   <grid-l>
-    <img src="/assets/img/prod1.png" alt="">
-    <img src="/assets/img/prod2.png" alt="">
-    <img src="/assets/img/prod3.png" alt="">
-    <img src="/assets/img/prod4.png" alt="">
-    <img src="/assets/img/prod5.png" alt="">
-    <img src="/assets/img/prod6.png" alt="">
-    <img src="/assets/img/prod7.png" alt="">
-    <img src="/assets/img/prod8.png" alt="">
-    <img src="/assets/img/prod9.png" alt="">
+    {% for photo in site.data.photos.production %}
+      <img src="{{photo.img_path}}" alt="{{photo.description}}">
+    {% endfor %}
   </grid-l>
 </stack-l>
