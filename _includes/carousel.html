@@ -1,6 +1,5 @@
 <div class="slider">
-  <div><img src="assets/img/clown-header.png" alt=""></div>
-  <div><img src="assets/img/headshot-street/Ania Street Act-27.jpg" alt=""></div>
-  <div><img src="assets/img/mercutio/Benvolio Mercutio.jpg" alt=""></div>
-  <div><img src="assets/img/headshot-street/Ania Street Act-37.jpg" alt=""></div>
+  {% for photo_url in site.data.carousel_photos.photos %}
+  <div><img src="{{photo_url}}" alt=""></div>
+  {% endfor %}
 </div>

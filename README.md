@@ -1,28 +1,6 @@
-# Jekyll Netlify Boilerplate
+# Ania's Site!
 
-*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does pretty much the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator. It's fast, flexible and doesn't require Ruby.*
-
-**A really simple Jekyll template for creating a fast, static website on Netlify with
-a continuous deployment workflow.**
-
-🔥 **This project is featured on Netlify's official [template showcase](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/) and blog: [The top 10 Static Site Generators to watch in 2018](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/)** 🔥
-
-* Minimal styling, ready to make your own
-* Example blog posts, pages and contact form
-* Responsive CSS Grid layout with fallbacks for older browsers
-* Continuous Deployment workflow via Netlify and Github
-* Netlify CMS for managing content
-* Netlify Identity for authenticating users
-* Netlify Forms for processing your static HTML forms with reCAPTCHA
-* Optional Netlify `_redirects` and `_headers` files ready to use
-* Jekyll SASS pipeline
-* Minified HTML and CSS
-
-Based on Netlify's [Jekyll + Netlify CMS](https://github.com/netlify-templates/jekyll-netlify-cms) starter template, head over there for more details on deployment and build settings or to get help with setting up Netlify.
-
-For help with templates, local development and other Jekyll related stuff, check out the excellent [Jekyll Docs](https://jekyllrb.com/docs/home/).
-
-## [View Demo](https://jekyll-netlify-boilerplate.netlify.com/)
+Made with Jekyll and deployed on Netlify!
 
 ## Performance
 
@@ -86,3 +64,9 @@ If you need any help with setting up Netlify CMS, you can reach out to the Netli
 
 ## Netlify Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4baca6e1-226c-4da0-891a-ff1637c2827d/deploy-status)](https://app.netlify.com/sites/zealous-wescoff-6078bc/deploys)
+
+## Dependencies
+
+- Spectre lib used for some css: https://picturepan2.github.io/spectre/index.html
+- Slider.js on the homepage: https://kenwheeler.github.io/slick/
+- Every Layout for custom web components: https://every-layout.dev/

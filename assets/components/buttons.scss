@@ -1,0 +1,51 @@
+.btn {
+  appearance: none;
+  background: transparent;
+  border: var(--border-thin) solid $color-primary;
+  border-radius: var(--s-6);
+  color: $color-primary;
+  cursor: pointer;
+  display: inline-block;
+  font-size: calc(0.05vw + 1em);
+  height: var(--var4);
+  line-height: var(--ratio);
+  outline: none;
+  padding: var(--s-3) var(--s0);
+  text-align: center;
+  text-decoration: none;
+  transition: background .2s, border .2s, box-shadow .2s, color .2s;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: var(--s-6);
+  &:focus,
+  &:hover {
+    background: rgba($color-primary, 0.5);
+    color: $color-primary;
+    text-decoration: none;
+  }
+  &.btn-primary {
+    background: $color-primary;
+    border-color: $color-primary;
+    color: white;
+    &:focus, &:hover {
+      background: darken($color-primary, 5%);
+      border-color: darken($color-primary, 5%);
+    }
+  }
+  // Button Clear
+  &.btn-clear {
+    background: transparent;
+    border: 0;
+    color: currentColor;
+
+    &:focus,
+    &:hover {
+      opacity: .95;
+    }
+
+    &::before {
+      content: "\2715";
+    }
+  }
+}
