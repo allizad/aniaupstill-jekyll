@@ -8,7 +8,7 @@ description: >
   TODO: SEO-friendly description
 ---
 
-# Ania Upstill is a performer, educator and clown based in NYC
+<h1 id="main-header">Ania Upstill is a performer, educator and clown based in NYC</h1>
 
 {% include carousel.html %}
 

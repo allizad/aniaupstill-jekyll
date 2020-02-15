@@ -1,16 +1,4 @@
 tour_dates:
-  - festival: FronteraFest
-    location: Austin, TX
-    dates: January 30th - February 1st, 2020
-    link:
-      url: "#"
-      text: TBD
-  - festival: Auckland Pride Festival
-    location: Auckland, New Zealand
-    dates: February 7th, 8th and 11th and 12th, 2020
-    link:
-      url: "#"
-      text: TBD
   - festival: Adelaide Fringe Festival
     location: Adelaide, Australia
     dates: February 15th, 2020
@@ -23,3 +11,15 @@ tour_dates:
     link:
       url: https://bats.co.nz/whats-on/transhumance/
       text: Buy Tickets
+  - festival: FronteraFest
+    location: Austin, TX
+    dates: January 30th - February 1st, 2020
+    link:
+      url: https://www.facebook.com/events/ground-floor-theatre/transhumance-fronterafest-austin/2485805828358146/
+      text: Learn more
+  - festival: Auckland Pride Festival
+    location: Auckland, New Zealand
+    dates: February 7th, 8th and 11th and 12th, 2020
+    link:
+      url: https://aucklandpride.org.nz/transhumance/
+      text: Learn more

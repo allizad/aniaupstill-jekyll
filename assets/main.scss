@@ -16,3 +16,16 @@ a.logo-anchor:hover svg .svg-up {
   transform: translate(0, -0.2rem);
   transition: all ease-out 0.2s;
 }
+
+.slick-slider {
+  max-height: 50vh;
+  .slick-list {
+    max-height: 50vh;
+  }
+}
+
+#main-header {
+  margin: var(--s4) 0 var(--s3);
+  text-align: center;
+  line-height: 1.5;
+}
